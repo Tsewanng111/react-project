@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
  export default function Navbar(){
@@ -9,9 +10,9 @@ return(
                 <span className="logo-name">DNC BOYS</span>
             </div>
             <div className="nav-options">
-                <a href="/Home">Home</a>
-                <a href="/Portfolio">Portfolio</a>
-                <a href="/About">About Me</a>
+                <Link to="/">Home</Link>
+                <Link to="/Portfolio">Portfolio</Link>
+                <Link to="/About">About Me</Link>
                
                 <button className="btn"> <a href="Contact">Contact me</a></button>
             </div>
