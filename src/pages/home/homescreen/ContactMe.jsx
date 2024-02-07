@@ -1,5 +1,7 @@
+import Navbar from "./Navbar"
 function Contact() {
     return <h1>
+        <Navbar/>
         <div className="form-page">
             <form action="" className="form">
                 <h1 className="name">CONTACT ME</h1>

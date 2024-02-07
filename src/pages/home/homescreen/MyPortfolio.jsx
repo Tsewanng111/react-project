@@ -1,5 +1,7 @@
+import Navbar from "./Navbar"
 function Portfolio(){
     return <h1> 
+        <Navbar/>
         <div className="main-port">
         <div className="port">
             <div className="port-right">My Portfolio</div>

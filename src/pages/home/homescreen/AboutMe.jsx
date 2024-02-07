@@ -1,6 +1,7 @@
-
+import Navbar from "./Navbar"
 function About(){
     return <h1>
+        <Navbar/>
         <div className="about">
             <div className="about-img">
                 <img src="./about.jpg" alt="" />
